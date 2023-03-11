@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingExDemo", "DrawingExDemo\DrawingExDemo.csproj", "{F78A9DD1-9FB4-4BB8-9A7E-30AAA93CC2EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6441560-3CC8-4AC3-AE4A-D092B424719F} = {A6441560-3CC8-4AC3-AE4A-D092B424719F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingEx", "DrawingEx\DrawingEx.csproj", "{A6441560-3CC8-4AC3-AE4A-D092B424719F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F78A9DD1-9FB4-4BB8-9A7E-30AAA93CC2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78A9DD1-9FB4-4BB8-9A7E-30AAA93CC2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78A9DD1-9FB4-4BB8-9A7E-30AAA93CC2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78A9DD1-9FB4-4BB8-9A7E-30AAA93CC2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6441560-3CC8-4AC3-AE4A-D092B424719F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6441560-3CC8-4AC3-AE4A-D092B424719F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6441560-3CC8-4AC3-AE4A-D092B424719F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6441560-3CC8-4AC3-AE4A-D092B424719F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
